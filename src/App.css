@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background: #0b2434;
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  width: 40rem;
+  height: 30rem;
+  background: rgb(194, 192, 192);
+  border-radius: 15px;
+  text-align: center;
+}
+.tenzies{
+  padding: 3rem;
+  color: rgb(73, 73, 73);
+}
+.tenzies p{
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.tenzies .dice{
+  display: grid;
+  grid-template-columns: repeat(5,4rem);
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem;
+}
+.dice .die{
+  background: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  width: 3.3rem;
+}
+.tenzies button{
+  padding: 10px 30px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  background-color: #5035ff;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.game-won{
+  display: grid;
+  justify-content: center;
+}
+.game-won h1{
+  background: rgb(255, 255, 255);
+  width: fit-content;
+  color: rgb(116, 52, 236);
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+.rolls{
+  text-align: left;
+  margin-top: -2.7rem;
+  background: rgb(255, 255, 255);
+  width: fit-content;
+  color: rgb(116, 52, 236);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.timer {
+  text-align: right;
+  margin-top: -5.6rem;
+  display: grid;
+  width: 100%;
+  justify-content: end;
+}
+.timer h3{
+  margin-right: 2rem;
+  padding: 10px ;
+  border-radius: 7px;
+  color: rgb(41, 41, 41);
+}
+
